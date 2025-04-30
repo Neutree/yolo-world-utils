@@ -1,6 +1,6 @@
 [project]
 name = "yolo-world-utils"
-version = "1.0.0"
+version = "1.0.2"
 description = "tools for yolo-world, like generate input token from string, or generate text feature"
 authors = [{name = "Neucrack", email = "czd666666@gmail.com"}]
 dependencies = [
