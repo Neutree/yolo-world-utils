@@ -6,3 +6,4 @@ build
 *.egg
 *.whl
 *.tar.gz
+yolo_world_utils/*.onnx

@@ -1,0 +1,16 @@
+[project]
+name = "yolo-world-utils"
+version = "1.0.0"
+description = "tools for yolo-world, like generate input token from string, or generate text feature"
+authors = [{name = "Neucrack", email = "czd666666@gmail.com"}]
+dependencies = [
+    "ftfy",
+    "regex",
+    "onnxruntime"
+]
+
+[tool.setuptools.packages.find]
+include = ["yolo_world_utils*"]
+
+[tool.setuptools.package-data]
+"yolo_world_utils" = ["bpe_simple_vocab_16e6.txt", "labels_examples"]

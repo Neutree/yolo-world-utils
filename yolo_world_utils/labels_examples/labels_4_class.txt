@@ -1,0 +1,4 @@
+person
+bird
+cat
+dog
